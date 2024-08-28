@@ -1,0 +1,84 @@
+    body {
+        width: 100vw;
+        height: 100vh;
+        background: url("images/register.jpg");
+        background-size: fill;
+        text-align: center;
+        border: none;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: normal;
+        font-style: var();
+        font-size: xx-large;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: large;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        border: none;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 14px;
+        border: 1px solid whitesmoke;
+        background: skyblue;
+    }
+    
+    a:hover {
+        color: green;
+    }
+    
+    form {
+        text-align: center;
+    }
+    
+    input {
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 14px;
+        border: 1px solid whitesmoke;
+        width: 20%;
+    }
+    
+    input:hover {
+        color: red;
+    }
+    
+    input[type="button"] {
+        background-color: aqua;
+        font-size: 18px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        border: none;
+    }
+    
+    p {
+        font-size: 14px;
+        margin: 15px 0;
+        color: blue;
+    }
+    
+    #message {
+        justify-content: center;
+        text-align: center;
+        width: 200px;
+        line-height: 20px;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }

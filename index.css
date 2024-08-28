@@ -1,0 +1,122 @@
+    body {
+    width: 100vw;
+    height: 100vh;
+    background: url("images/landing.jpg");
+    background-size: cover;
+    text-align: center;
+    border: none;
+}
+
+.navbar {
+    background-color: blue;
+    background-size: cover;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+    margin-left: 0;
+}
+
+.active {
+    background: grey;
+}
+
+.active:hover {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-style: var();
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h2:hover {
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+h3:hover {
+    color: white;
+}
+
+div {
+    font-size: larger;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    text-decoration: none;
+    color: blue;
+    font-family: egoe
+}
+
+a:hover {
+    color: white;
+    background: grey;
+}
+
+footer {
+    background: url("images/school2.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+    margin-left: 0;
+    color: white;
+}
+
+.glow {
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.about-section {
+    color: rgb(59, 57, 57);
+}
+
+.glow2 {
+    font-size: 20px;
+    color: rgb(130, 173, 238);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+    }
+    to {
+        text-shadow: 0 0 20px #eeeeee, 0 0 30px #e14dff, 0 0 40px #a94dff, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }

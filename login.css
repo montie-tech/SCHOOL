@@ -1,0 +1,46 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("images/login.jpg");
+    background-size: cover;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    text-color: yellow
+}
+
+h3 {
+    text-align: center;
+    text-color: blue
+}
+
+a {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    background: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background: blue;
+}
+
+p {
+    text-align: center;
+    text-color: blue;
+    font-size: larger;
+}
+
+.sidenav {
+    right: 0;
+}
+
+div {
+    font-size: larger;
+}

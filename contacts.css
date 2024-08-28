@@ -1,0 +1,61 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("images/school2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-style: var();
+    font-size: xx-large;
+    color: blue;
+}
+
+h1:hover {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+
+h2:hover {
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+h3:hover {
+    color: brown;
+}
+
+a {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    background: blue;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: brown;
+    background: whitesmoke;
+}

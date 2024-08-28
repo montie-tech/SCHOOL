@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("images/class1.jpg");
+    background-size: cover;
+    text-align: center;
+    border: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-style: var();
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    background: white;
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+    color: green;
+}
+
+input {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid whitesmoke;
+    background: skyblue;
+}
+
+input:hover {
+    color: red;
+}
